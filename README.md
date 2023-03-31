@@ -30,3 +30,7 @@ Pipeline :
 
 
 성능적으로 개선사항은 각 문장에 대한 가중치 부여, 또는 문장 구조상 앞문장과 뒷문장의 관계에 대한 부분도 고려하면 좋습니다.
+
+Output sample :
+
+![image](https://user-images.githubusercontent.com/94098546/228994562-4506ae8e-3de7-422c-90e7-266be081d6ad.png)
