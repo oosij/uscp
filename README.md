@@ -10,6 +10,7 @@ Model :
 
 금융 도메인 사전 학습 모델로, FinBERT(로이터 금융 뉴스 기반), FinBERT(재무 분석, 연차보고서 기반) 
 범용 사전 학습 모델로, Electra, DeBERTa, XLNet, BigBird 등을 사용하여 비교 분석하였습니다.
+우선 FinBERT(로이터 금융 뉴스 기반, FinBERT: Financial Sentiment Analysis with Pre-trained Language Models) 의 parameter를 기반으로 미세 조정하였습니다. 
 
 Model performence :
 
@@ -18,7 +19,7 @@ Model performence :
 
 
 이 중, Electra 모델이 성능이 높게 나온 3 모델 중 비용이 가장 적기에 해당 모델 위주로 다시 최적화 작업을 진행하였습니다.
-
+-> 각 학습 데이터셋에 대한 미세조정시엔 모델 네트워크의 parameter는 최적화 작업중 달리하였습니다. 
 
 Pipeline : 
 
