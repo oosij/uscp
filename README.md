@@ -12,17 +12,10 @@ Model :
 범용 사전 학습 모델로, Electra, DeBERTa, XLNet, BigBird 등을 사용하여 비교 분석하였습니다.
 
 Model performence :
+
+
 ![image](https://user-images.githubusercontent.com/94098546/228991999-aa583afa-ba71-480a-a23b-8c1c230e3b81.png)
 
-
-            50agree (total : 4846)	                            100agree (total : 2264)
-            Accuracy	Macro f1	wighted f1	                    Accuracy	Macro f1	wighted f1
-FinBERT(1)	0.86	   0.85	      0.87	                        0.98	    0.97	    0.98
-FinBERT(2)	0.84	   0.82	      0.84	                        0.97	    0.96	    0.97
-Electra	0.86	   0.85	      0.86	                        0.96	    0.96	    0.97
-DeBEERTa	0.85	   0.83	      0.85	                        0.98	    0.97	    0.98
-XLNet	0.84	   0.83	      0.84	                        0.97	    0.96	    0.97
-BigBird	0.86	   0.85	      0.86	                        0.98	    0.97	    0.98
 
 이 중, Electra 모델이 성능이 높게 나온 3 모델 중 비용이 가장 적기에 해당 모델 위주로 다시 최적화 작업을 진행하였습니다.
 
