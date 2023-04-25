@@ -4,7 +4,7 @@
 import paramiko
 
 
-# ssh 이츠에이 수집한 investing.news 해외 종목 뉴스 접근 및 파일 리스트 추출
+# ssh 서버에서 수집한 investing.news 해외 종목 뉴스 접근 및 파일 리스트 추출
 def ssh_access_day_files(host, port_num, user_id, user_password, remote_dir_path):
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
