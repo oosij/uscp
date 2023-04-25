@@ -22,10 +22,10 @@ MAX_LEN, batch_size = 64, 16
 
 
 # ssh info
-host  = '121.254.150.83'
-port_num  = 6502
-user_id = 'bascrap'
-user_password = 'qwe123!@#'
+host  = 'IP number'
+port_num  = 0000
+user_id = 'id_name'
+user_password = 'password'
 
 # target date
 yesterday = datetime.today() - timedelta(1)
